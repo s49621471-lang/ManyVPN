@@ -1,5 +1,6 @@
 import asyncio
 import json
+import ssl
 import time
 
 import aiohttp
@@ -54,7 +55,8 @@ async def _probe(session, port, endpoints, timeout, attempts):
         for _ in range(max(1, attempts)):
             try:
                 body, elapsed = await _fetch(session, endpoint["url"], proxy, timeout)
-            except (aiohttp.ClientError, asyncio.TimeoutError, OSError, UnicodeDecodeError):
+            except (aiohttp.ClientError, asyncio.TimeoutError, OSError,
+                    UnicodeDecodeError, ssl.SSLError):
                 break
             found, exit_ip = parser(body)
             if not found:
@@ -81,7 +83,7 @@ async def _run_batch(nodes, core, binary, base_port, config):
     try:
         if process is None:
             return None
-        connector = aiohttp.TCPConnector(limit=0, ssl=False, force_close=True)
+        connector = aiohttp.TCPConnector(limit=0, force_close=True)
         headers = {"User-Agent": USER_AGENT, "Accept": "*/*", "Connection": "close"}
         async with aiohttp.ClientSession(connector=connector, headers=headers, trust_env=False) as session:
             tasks = [

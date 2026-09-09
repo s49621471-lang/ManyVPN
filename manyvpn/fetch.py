@@ -73,7 +73,7 @@ async def _one(session, source, timeout, semaphore, report):
 async def collect(sources, timeout=45, concurrency=12):
     semaphore = asyncio.Semaphore(concurrency)
     report = []
-    connector = aiohttp.TCPConnector(limit=concurrency * 2, ssl=False)
+    connector = aiohttp.TCPConnector(limit=concurrency * 2)
     headers = {"User-Agent": USER_AGENT, "Accept": "*/*"}
     async with aiohttp.ClientSession(connector=connector, headers=headers, trust_env=True) as session:
         tasks = [_one(session, source, timeout, semaphore, report) for source in sources]
