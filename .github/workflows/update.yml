@@ -1,0 +1,122 @@
+name: ManyVPN update
+
+on:
+  schedule:
+    - cron: "23 */4 * * *"
+  workflow_dispatch:
+    inputs:
+      max_verify:
+        description: "Сколько конфигов отправлять на глубокую проверку"
+        required: false
+        default: ""
+  push:
+    branches:
+      - main
+      - master
+      - claude/manyvpn-subscription-uegnwi
+    paths:
+      - "manyvpn/**"
+      - "sources.json"
+      - "config.json"
+      - "requirements.txt"
+      - ".github/workflows/update.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: manyvpn-update
+  cancel-in-progress: false
+
+env:
+  SING_BOX_VERSION: "1.11.15"
+  XRAY_VERSION: "25.9.11"
+  PUBLISH_BRANCH: "sub"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip && pip install -r requirements.txt
+
+      - name: Install proxy cores
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/cores"
+          curl -sSL --retry 4 --retry-delay 3 -o "$RUNNER_TEMP/sing-box.tar.gz" \
+            "https://github.com/SagerNet/sing-box/releases/download/v${SING_BOX_VERSION}/sing-box-${SING_BOX_VERSION}-linux-amd64.tar.gz"
+          tar -xzf "$RUNNER_TEMP/sing-box.tar.gz" -C "$RUNNER_TEMP"
+          mv "$RUNNER_TEMP/sing-box-${SING_BOX_VERSION}-linux-amd64/sing-box" "$RUNNER_TEMP/cores/sing-box"
+          curl -sSL --retry 4 --retry-delay 3 -o "$RUNNER_TEMP/xray.zip" \
+            "https://github.com/XTLS/Xray-core/releases/download/v${XRAY_VERSION}/Xray-linux-64.zip"
+          unzip -oq "$RUNNER_TEMP/xray.zip" -d "$RUNNER_TEMP/xray-dist"
+          mv "$RUNNER_TEMP/xray-dist/xray" "$RUNNER_TEMP/cores/xray"
+          chmod +x "$RUNNER_TEMP/cores/sing-box" "$RUNNER_TEMP/cores/xray"
+          "$RUNNER_TEMP/cores/sing-box" version
+          "$RUNNER_TEMP/cores/xray" version
+
+      - name: Restore reliability history
+        run: |
+          mkdir -p state
+          if ! curl -sfL --retry 2 -o state/history.json \
+            "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${PUBLISH_BRANCH}/history.json"; then
+            echo '{"updated":"","nodes":{}}' > state/history.json
+          fi
+          python -c "import json,sys;json.load(open('state/history.json'))" \
+            || echo '{"updated":"","nodes":{}}' > state/history.json
+
+      - name: Build subscription
+        run: |
+          ulimit -n 65535 || true
+          EXTRA=""
+          if [ -n "${{ github.event.inputs.max_verify }}" ]; then
+            EXTRA="--max-verify ${{ github.event.inputs.max_verify }}"
+          fi
+          python -m manyvpn \
+            --output sub \
+            --history state/history.json \
+            --singbox "$RUNNER_TEMP/cores/sing-box" \
+            --xray "$RUNNER_TEMP/cores/xray" \
+            $EXTRA
+
+      - name: Job summary
+        if: always()
+        run: |
+          if [ -f sub/README.md ]; then
+            cat sub/README.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "Сборка не создала подписку." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Publish subscription branch
+        run: |
+          set -euo pipefail
+          test -s sub/manyvpn.txt
+          cd sub
+          git init -q -b "${PUBLISH_BRANCH}"
+          git config user.name "manyvpn-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "ManyVPN $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push -q --force \
+            "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" \
+            "HEAD:refs/heads/${PUBLISH_BRANCH}"
+
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: manyvpn-subscription
+          path: sub
+          if-no-files-found: warn
+          retention-days: 7

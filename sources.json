@@ -1,0 +1,484 @@
+{
+  "sources": [
+    {
+      "label": "igareck / BLACK VLESS RUS mobile",
+      "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_VLESS_RUS_mobile.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "igareck / BLACK VLESS RUS",
+      "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_VLESS_RUS.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "igareck / Reality White Lists mobile",
+      "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
+      "whitelist": true,
+      "enabled": true
+    },
+    {
+      "label": "igareck / Reality White Lists desktop",
+      "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Desktop.txt",
+      "whitelist": true,
+      "enabled": true
+    },
+    {
+      "label": "mheidari98 / .proxy all",
+      "url": "https://raw.githubusercontent.com/mheidari98/.proxy/main/all",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "Leon406 / SubCrawler vless",
+      "url": "https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/vless",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "Leon406 / SubCrawler trojan",
+      "url": "https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/tr",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "Leon406 / SubCrawler ss",
+      "url": "https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/ss",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "Epodonios / all configs",
+      "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/All_Configs_Sub.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "Epodonios / vless",
+      "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/vless.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "Epodonios / vmess",
+      "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/vmess.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "Epodonios / trojan",
+      "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/trojan.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "Epodonios / shadowsocks",
+      "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/ss.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "barry-far / all configs",
+      "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/All_Configs_Sub.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "barry-far / vless",
+      "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/vless.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "barry-far / vmess",
+      "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/vmess.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "barry-far / trojan",
+      "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/trojan.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "barry-far / shadowsocks",
+      "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/ss.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "mahdibland / V2RayAggregator merge",
+      "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "mahdibland / V2RayAggregator base64",
+      "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_base64.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "mahdibland / V2RayAggregator vmess",
+      "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/splitted/vmess.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "mahdibland / Eternity",
+      "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/Eternity.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "mahdibland / ShadowsocksAggregator",
+      "url": "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "ALIILAPRO / v2rayNG config",
+      "url": "https://raw.githubusercontent.com/ALIILAPRO/v2rayNG-Config/main/sub.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "LalatinaHub / Mineral",
+      "url": "https://raw.githubusercontent.com/LalatinaHub/Mineral/master/result/nodes",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "w1770946466 / Auto proxy",
+      "url": "https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "MhdiTaheri / V2rayCollector py",
+      "url": "https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector_Py/main/sub/Mix/mix.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "MhdiTaheri / V2rayCollector",
+      "url": "https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/refs/heads/main/sub/mix",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "Surfboardv2ray / TGParse mixed",
+      "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/mixed",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "Surfboardv2ray / TGParse telegram",
+      "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/configtg.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "coldwater-10 / V2ray Config Lite",
+      "url": "https://raw.githubusercontent.com/coldwater-10/V2ray-Config-Lite/main/All_Configs_Sub.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "MatinGhanbari / all sub",
+      "url": "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/all_sub.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "MatinGhanbari / filtered vless",
+      "url": "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/filtered/subs/vless.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "ebrasha / free v2ray public list",
+      "url": "https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/V2Ray-Config-By-EbraSha.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "ndsphonemy / proxy-sub speed",
+      "url": "https://raw.githubusercontent.com/ndsphonemy/proxy-sub/main/speed.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "ndsphonemy / proxy-sub default",
+      "url": "https://raw.githubusercontent.com/ndsphonemy/proxy-sub/main/default.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "liketolivefree / kobabi",
+      "url": "https://raw.githubusercontent.com/liketolivefree/kobabi/main/sub.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "peasoft / NoMoreWalls",
+      "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "peasoft / NoMoreWalls raw",
+      "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list_raw.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "ts-sf / fly",
+      "url": "https://raw.githubusercontent.com/ts-sf/fly/main/v2",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "ZywChannel / free",
+      "url": "https://raw.githubusercontent.com/ZywChannel/free/main/sub",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "NiREvil / vless SSTime",
+      "url": "https://raw.githubusercontent.com/NiREvil/vless/main/sub/SSTime",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "Kwinshadow / TelegramV2rayCollector",
+      "url": "https://raw.githubusercontent.com/Kwinshadow/TelegramV2rayCollector/refs/heads/main/sublinks/mix.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "Rayan-Config / C-Sub",
+      "url": "https://raw.githubusercontent.com/Rayan-Config/C-Sub/refs/heads/main/configs/proxy.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "hans-thomas / v2ray subscription",
+      "url": "https://raw.githubusercontent.com/hans-thomas/v2ray-subscription/master/servers.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "Pawdroid / Free servers",
+      "url": "https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "free-nodes / v2rayfree",
+      "url": "https://raw.githubusercontent.com/free-nodes/v2rayfree/main/README.md",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "ripaojiedian / freenode",
+      "url": "https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "freefq / free",
+      "url": "https://raw.githubusercontent.com/freefq/free/master/v2",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "Everyday-VPN / main",
+      "url": "https://raw.githubusercontent.com/Everyday-VPN/Everyday-VPN/main/subscription/main.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "vxiaov / free proxies",
+      "url": "https://raw.githubusercontent.com/vxiaov/free_proxies/main/links.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "AzadNetCH / Clash",
+      "url": "https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_iOS.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "ermaozi01 / free clash vpn",
+      "url": "https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/v2ray.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "ermaozi / get subscribe",
+      "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "Arshiacomplus / v2rayExtractor",
+      "url": "https://raw.githubusercontent.com/Arshiacomplus/v2rayExtractor/main/vless.html",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "anaer / Sub clash",
+      "url": "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "ermaozi / get subscribe clash",
+      "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "soroushmirzaei / vless",
+      "url": "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/refs/heads/main/protocols/vless",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "soroushmirzaei / vmess",
+      "url": "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/refs/heads/main/protocols/vmess",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "soroushmirzaei / trojan",
+      "url": "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/refs/heads/main/protocols/trojan",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "soroushmirzaei / shadowsocks",
+      "url": "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/refs/heads/main/protocols/shadowsocks",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "itsyebekhe / PSG mix",
+      "url": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/normal/mix",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "itsyebekhe / PSG vless",
+      "url": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/normal/vless",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "itsyebekhe / PSG vmess",
+      "url": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/normal/vmess",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "itsyebekhe / PSG trojan",
+      "url": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/normal/trojan",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "itsyebekhe / PSG shadowsocks",
+      "url": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/normal/ss",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "wuqb2i4f / xray config toolkit",
+      "url": "https://raw.githubusercontent.com/wuqb2i4f/xray-config-toolkit/main/output/base64/mix-uri",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "darknessm427 / aggregator",
+      "url": "https://raw.githubusercontent.com/darknessm427/V2ray-Config-Aggregator/main/sub/mix",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "theGreatPeter / v2rayNodes",
+      "url": "https://raw.githubusercontent.com/theGreatPeter/v2rayNodes/main/nodes.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "tbbatbb / Proxy",
+      "url": "https://raw.githubusercontent.com/tbbatbb/Proxy/master/dist/v2ray.config.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "Mosifree / FREE2CONFIG",
+      "url": "https://raw.githubusercontent.com/Mosifree/-FREE2CONFIG/main/T%20Mobile",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "V2RaySub / Sub",
+      "url": "https://raw.githubusercontent.com/V2RaySub/Sub/main/sub.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "Memory-Of-Rain / v2ray sub",
+      "url": "https://raw.githubusercontent.com/Memory-Of-Rain/v2ray-sub/main/sub.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "mermeroo / V2RAY and Clash",
+      "url": "https://raw.githubusercontent.com/mermeroo/V2RAY-and-Clash-Configs/main/v2ray",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "lagzian / SS Collector",
+      "url": "https://raw.githubusercontent.com/lagzian/SS-Collector/main/mix.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "10ium / scrape and categorize",
+      "url": "https://raw.githubusercontent.com/10ium/ScrapeAndCategorize/main/output/mixed.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "Bardiafa / free v2ray",
+      "url": "https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/All_Configs_Sub.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "vpei / free node merge",
+      "url": "https://raw.githubusercontent.com/vpei/Free-Node-Merge/main/out/txt.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "gfpcom / free proxy list",
+      "url": "https://raw.githubusercontent.com/gfpcom/free-proxy-list/main/list/all.txt",
+      "whitelist": false,
+      "enabled": true
+    },
+    {
+      "label": "Jsnzkpg / Jsnzkpg",
+      "url": "https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg",
+      "whitelist": false,
+      "enabled": true
+    }
+  ]
+}
