@@ -11,7 +11,7 @@
   "verify_batch": 150,
   "verify_timeout": 8.0,
   "verify_attempts": 2,
-  "max_verify": 10000,
+  "max_verify": 20000,
   "latency_max_ms": 3500,
   "exclude_countries": []
 }

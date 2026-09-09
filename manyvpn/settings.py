@@ -18,7 +18,7 @@ DEFAULTS = {
     "verify_timeout": 8.0,
     "verify_attempts": 2,
     "verify_base_port": 34000,
-    "max_verify": 10000,
+    "max_verify": 20000,
     "latency_max_ms": 3500,
     "startup_timeout": 25.0,
     "exclude_countries": [],
