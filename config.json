@@ -8,10 +8,10 @@
   "max_per_endpoint": 4,
   "tcp_timeout": 3.0,
   "tcp_concurrency": 700,
-  "verify_batch": 120,
-  "verify_timeout": 10.0,
+  "verify_batch": 150,
+  "verify_timeout": 8.0,
   "verify_attempts": 2,
-  "max_verify": 5000,
+  "max_verify": 10000,
   "latency_max_ms": 3500,
   "exclude_countries": []
 }
