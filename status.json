@@ -1,0 +1,1569 @@
+{
+  "name": "ManyVPN",
+  "generated_at": "2026-09-26T14:21:45+00:00",
+  "total": 119,
+  "normal": 105,
+  "whitelist": 14,
+  "countries": 42,
+  "stats": {
+    "countries_normal": 42,
+    "countries_whitelist": 8,
+    "selected_normal": 105,
+    "selected_whitelist": 14,
+    "fetched": 20650,
+    "candidates": 20000,
+    "verified": 1027,
+    "sources_ok": 79,
+    "sources_total": 79,
+    "duration_sec": 4110.1
+  },
+  "sources": [
+    {
+      "source": "Kolandone / vless",
+      "url": "https://raw.githubusercontent.com/Kolandone/v2raycollector/main/vless.txt",
+      "nodes": 34316,
+      "error": ""
+    },
+    {
+      "source": "mheidari98 / .proxy all",
+      "url": "https://raw.githubusercontent.com/mheidari98/.proxy/main/all",
+      "nodes": 22124,
+      "error": ""
+    },
+    {
+      "source": "Leon406 / SubCrawler vless",
+      "url": "https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/vless",
+      "nodes": 11500,
+      "error": ""
+    },
+    {
+      "source": "mheidari98 / vless",
+      "url": "https://raw.githubusercontent.com/mheidari98/.proxy/main/vless",
+      "nodes": 10570,
+      "error": ""
+    },
+    {
+      "source": "Kolandone / shadowsocks",
+      "url": "https://raw.githubusercontent.com/Kolandone/v2raycollector/main/ss.txt",
+      "nodes": 9052,
+      "error": ""
+    },
+    {
+      "source": "barry-far / all configs",
+      "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/All_Configs_Sub.txt",
+      "nodes": 7514,
+      "error": ""
+    },
+    {
+      "source": "Epodonios / all configs",
+      "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/All_Configs_Sub.txt",
+      "nodes": 7510,
+      "error": ""
+    },
+    {
+      "source": "Surfboardv2ray / TGParse mixed",
+      "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/mixed",
+      "nodes": 6985,
+      "error": ""
+    },
+    {
+      "source": "Surfboardv2ray / TGParse telegram",
+      "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/configtg.txt",
+      "nodes": 6985,
+      "error": ""
+    },
+    {
+      "source": "Kolandone / trojan",
+      "url": "https://raw.githubusercontent.com/Kolandone/v2raycollector/main/trojan.txt",
+      "nodes": 6295,
+      "error": ""
+    },
+    {
+      "source": "Epodonios / vless",
+      "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/vless.txt",
+      "nodes": 5871,
+      "error": ""
+    },
+    {
+      "source": "barry-far / vless",
+      "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/vless.txt",
+      "nodes": 5869,
+      "error": ""
+    },
+    {
+      "source": "itsyebekhe / PSG lite cdn",
+      "url": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/lite/subscriptions/xray/cdn",
+      "nodes": 5841,
+      "error": ""
+    },
+    {
+      "source": "mheidari98 / vmess",
+      "url": "https://raw.githubusercontent.com/mheidari98/.proxy/main/vmess",
+      "nodes": 5512,
+      "error": ""
+    },
+    {
+      "source": "Surfboardv2ray / Proxy sorter",
+      "url": "https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/submerge/converted.txt",
+      "nodes": 4310,
+      "error": ""
+    },
+    {
+      "source": "coldwater-10 / V2ray Config Lite",
+      "url": "https://raw.githubusercontent.com/coldwater-10/V2ray-Config-Lite/main/All_Configs_Sub.txt",
+      "nodes": 4162,
+      "error": ""
+    },
+    {
+      "source": "mahdibland / V2RayAggregator merge",
+      "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt",
+      "nodes": 4129,
+      "error": ""
+    },
+    {
+      "source": "mahdibland / V2RayAggregator base64",
+      "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_base64.txt",
+      "nodes": 4129,
+      "error": ""
+    },
+    {
+      "source": "MatinGhanbari / all sub",
+      "url": "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/all_sub.txt",
+      "nodes": 3934,
+      "error": ""
+    },
+    {
+      "source": "ALIILAPRO / v2rayNG config",
+      "url": "https://raw.githubusercontent.com/ALIILAPRO/v2rayNG-Config/main/sub.txt",
+      "nodes": 2482,
+      "error": ""
+    },
+    {
+      "source": "ALIILAPRO / server list",
+      "url": "https://raw.githubusercontent.com/ALIILAPRO/v2rayNG-Config/main/server.txt",
+      "nodes": 2482,
+      "error": ""
+    },
+    {
+      "source": "mheidari98 / trojan",
+      "url": "https://raw.githubusercontent.com/mheidari98/.proxy/main/trojan",
+      "nodes": 1978,
+      "error": ""
+    },
+    {
+      "source": "mahdibland / splitted ss",
+      "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/splitted/ss.txt",
+      "nodes": 1858,
+      "error": ""
+    },
+    {
+      "source": "LalatinaHub / Mineral",
+      "url": "https://raw.githubusercontent.com/LalatinaHub/Mineral/master/result/nodes",
+      "nodes": 1789,
+      "error": ""
+    },
+    {
+      "source": "mahdibland / V2RayAggregator vmess",
+      "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/splitted/vmess.txt",
+      "nodes": 1644,
+      "error": ""
+    },
+    {
+      "source": "anaer / Sub clash",
+      "url": "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
+      "nodes": 1583,
+      "error": ""
+    },
+    {
+      "source": "ndsphonemy / proxy-sub default",
+      "url": "https://raw.githubusercontent.com/ndsphonemy/proxy-sub/main/default.txt",
+      "nodes": 1317,
+      "error": ""
+    },
+    {
+      "source": "MhdiTaheri / V2rayCollector",
+      "url": "https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/refs/heads/main/sub/mix",
+      "nodes": 873,
+      "error": ""
+    },
+    {
+      "source": "barry-far / shadowsocks",
+      "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/ss.txt",
+      "nodes": 674,
+      "error": ""
+    },
+    {
+      "source": "Epodonios / shadowsocks",
+      "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/ss.txt",
+      "nodes": 657,
+      "error": ""
+    },
+    {
+      "source": "mahdibland / splitted trojan",
+      "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/splitted/trojan.txt",
+      "nodes": 627,
+      "error": ""
+    },
+    {
+      "source": "w1770946466 / Auto proxy",
+      "url": "https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num",
+      "nodes": 551,
+      "error": ""
+    },
+    {
+      "source": "barry-far / trojan",
+      "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/trojan.txt",
+      "nodes": 548,
+      "error": ""
+    },
+    {
+      "source": "Epodonios / trojan",
+      "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/trojan.txt",
+      "nodes": 537,
+      "error": ""
+    },
+    {
+      "source": "ndsphonemy / proxy-sub speed",
+      "url": "https://raw.githubusercontent.com/ndsphonemy/proxy-sub/main/speed.txt",
+      "nodes": 498,
+      "error": ""
+    },
+    {
+      "source": "mrvcoder / V2rayCollector",
+      "url": "https://raw.githubusercontent.com/mrvcoder/V2rayCollector/main/mixed_iran.txt",
+      "nodes": 415,
+      "error": ""
+    },
+    {
+      "source": "wuqb2i4f / xray config toolkit",
+      "url": "https://raw.githubusercontent.com/wuqb2i4f/xray-config-toolkit/main/output/base64/mix-uri",
+      "nodes": 410,
+      "error": ""
+    },
+    {
+      "source": "MhdiTaheri / V2rayCollector py",
+      "url": "https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector_Py/main/sub/Mix/mix.txt",
+      "nodes": 370,
+      "error": ""
+    },
+    {
+      "source": "Leon406 / SubCrawler v2",
+      "url": "https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/v2",
+      "nodes": 339,
+      "error": ""
+    },
+    {
+      "source": "barry-far / vmess",
+      "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/vmess.txt",
+      "nodes": 331,
+      "error": ""
+    },
+    {
+      "source": "Epodonios / vmess",
+      "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/vmess.txt",
+      "nodes": 321,
+      "error": ""
+    },
+    {
+      "source": "MatinGhanbari / filtered vless",
+      "url": "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/filtered/subs/vless.txt",
+      "nodes": 285,
+      "error": ""
+    },
+    {
+      "source": "V2RayRoot / vless",
+      "url": "https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/main/Config/vless.txt",
+      "nodes": 259,
+      "error": ""
+    },
+    {
+      "source": "liketolivefree / kobabi",
+      "url": "https://raw.githubusercontent.com/liketolivefree/kobabi/main/sub.txt",
+      "nodes": 256,
+      "error": ""
+    },
+    {
+      "source": "Leon406 / SubCrawler ss",
+      "url": "https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/ss",
+      "nodes": 239,
+      "error": ""
+    },
+    {
+      "source": "ZywChannel / free",
+      "url": "https://raw.githubusercontent.com/ZywChannel/free/main/sub",
+      "nodes": 232,
+      "error": ""
+    },
+    {
+      "source": "ebrasha / free v2ray public list",
+      "url": "https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/V2Ray-Config-By-EbraSha.txt",
+      "nodes": 218,
+      "error": ""
+    },
+    {
+      "source": "ts-sf / fly",
+      "url": "https://raw.githubusercontent.com/ts-sf/fly/main/v2",
+      "nodes": 201,
+      "error": ""
+    },
+    {
+      "source": "mahdibland / ShadowsocksAggregator",
+      "url": "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.txt",
+      "nodes": 200,
+      "error": ""
+    },
+    {
+      "source": "mahdibland / Eternity",
+      "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/Eternity.txt",
+      "nodes": 200,
+      "error": ""
+    },
+    {
+      "source": "Arshiacomplus / v2rayExtractor",
+      "url": "https://raw.githubusercontent.com/Arshiacomplus/v2rayExtractor/main/vless.html",
+      "nodes": 177,
+      "error": ""
+    },
+    {
+      "source": "itsyebekhe / PSG lite mix",
+      "url": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/lite/subscriptions/xray/mix",
+      "nodes": 170,
+      "error": ""
+    },
+    {
+      "source": "igareck / BLACK VLESS RUS mobile",
+      "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_VLESS_RUS_mobile.txt",
+      "nodes": 150,
+      "error": ""
+    },
+    {
+      "source": "ermaozi / get subscribe",
+      "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt",
+      "nodes": 146,
+      "error": ""
+    },
+    {
+      "source": "itsyebekhe / PSG lite vless",
+      "url": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/lite/subscriptions/xray/vless",
+      "nodes": 146,
+      "error": ""
+    },
+    {
+      "source": "igareck / BLACK VLESS RUS",
+      "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_VLESS_RUS.txt",
+      "nodes": 138,
+      "error": ""
+    },
+    {
+      "source": "ermaozi / get subscribe clash",
+      "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
+      "nodes": 135,
+      "error": ""
+    },
+    {
+      "source": "NiREvil / vless SSTime",
+      "url": "https://raw.githubusercontent.com/NiREvil/vless/main/sub/SSTime",
+      "nodes": 124,
+      "error": ""
+    },
+    {
+      "source": "Kwinshadow / TelegramV2rayCollector",
+      "url": "https://raw.githubusercontent.com/Kwinshadow/TelegramV2rayCollector/refs/heads/main/sublinks/mix.txt",
+      "nodes": 82,
+      "error": ""
+    },
+    {
+      "source": "peasoft / NoMoreWalls",
+      "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt",
+      "nodes": 79,
+      "error": ""
+    },
+    {
+      "source": "peasoft / NoMoreWalls raw",
+      "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list_raw.txt",
+      "nodes": 79,
+      "error": ""
+    },
+    {
+      "source": "hans-thomas / v2ray subscription",
+      "url": "https://raw.githubusercontent.com/hans-thomas/v2ray-subscription/master/servers.txt",
+      "nodes": 73,
+      "error": ""
+    },
+    {
+      "source": "Leon406 / SubCrawler trojan",
+      "url": "https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/tr",
+      "nodes": 54,
+      "error": ""
+    },
+    {
+      "source": "Rayan-Config / C-Sub",
+      "url": "https://raw.githubusercontent.com/Rayan-Config/C-Sub/refs/heads/main/configs/proxy.txt",
+      "nodes": 46,
+      "error": ""
+    },
+    {
+      "source": "igareck / Reality White Lists mobile",
+      "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
+      "nodes": 40,
+      "error": ""
+    },
+    {
+      "source": "theGreatPeter / v2rayNodes",
+      "url": "https://raw.githubusercontent.com/theGreatPeter/v2rayNodes/main/nodes.txt",
+      "nodes": 25,
+      "error": ""
+    },
+    {
+      "source": "ermaozi01 / free clash vpn",
+      "url": "https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/v2ray.txt",
+      "nodes": 22,
+      "error": ""
+    },
+    {
+      "source": "Pawdroid / Free servers",
+      "url": "https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub",
+      "nodes": 20,
+      "error": ""
+    },
+    {
+      "source": "free-nodes / v2rayfree",
+      "url": "https://raw.githubusercontent.com/free-nodes/v2rayfree/main/README.md",
+      "nodes": 20,
+      "error": ""
+    },
+    {
+      "source": "itsyebekhe / PSG lite vmess",
+      "url": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/lite/subscriptions/xray/vmess",
+      "nodes": 19,
+      "error": ""
+    },
+    {
+      "source": "itsyebekhe / PSG lite reality",
+      "url": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/lite/subscriptions/xray/reality",
+      "nodes": 17,
+      "error": ""
+    },
+    {
+      "source": "freefq / free",
+      "url": "https://raw.githubusercontent.com/freefq/free/master/v2",
+      "nodes": 14,
+      "error": ""
+    },
+    {
+      "source": "V2RayRoot / vmess",
+      "url": "https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/main/Config/vmess.txt",
+      "nodes": 14,
+      "error": ""
+    },
+    {
+      "source": "itsyebekhe / PSG lite ss",
+      "url": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/lite/subscriptions/xray/ss",
+      "nodes": 11,
+      "error": ""
+    },
+    {
+      "source": "vxiaov / free proxies",
+      "url": "https://raw.githubusercontent.com/vxiaov/free_proxies/main/links.txt",
+      "nodes": 10,
+      "error": ""
+    },
+    {
+      "source": "ripaojiedian / freenode",
+      "url": "https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub",
+      "nodes": 7,
+      "error": ""
+    },
+    {
+      "source": "AzadNetCH / Clash",
+      "url": "https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_iOS.txt",
+      "nodes": 6,
+      "error": ""
+    },
+    {
+      "source": "Everyday-VPN / main",
+      "url": "https://raw.githubusercontent.com/Everyday-VPN/Everyday-VPN/main/subscription/main.txt",
+      "nodes": 2,
+      "error": ""
+    },
+    {
+      "source": "Kolandone / vmess",
+      "url": "https://raw.githubusercontent.com/Kolandone/v2raycollector/main/vmess.txt",
+      "nodes": 1,
+      "error": ""
+    }
+  ],
+  "servers": [
+    {
+      "name": "🇺🇸 США 1",
+      "country": "US",
+      "latency_ms": 52.7,
+      "protocol": "shadowsocks",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "18.205.21.144"
+    },
+    {
+      "name": "🇺🇸 США 2",
+      "country": "US",
+      "latency_ms": 54.9,
+      "protocol": "shadowsocks",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "156.146.38.169"
+    },
+    {
+      "name": "🇺🇸 США 3",
+      "country": "US",
+      "latency_ms": 63.3,
+      "protocol": "vless",
+      "transport": "grpc",
+      "whitelist": false,
+      "exit_ip": "79.141.172.154"
+    },
+    {
+      "name": "🇨🇦 Канада 1",
+      "country": "CA",
+      "latency_ms": 71.8,
+      "protocol": "vmess",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "134.195.196.211"
+    },
+    {
+      "name": "🇨🇦 Канада 2",
+      "country": "CA",
+      "latency_ms": 75.8,
+      "protocol": "vmess",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "23.162.200.198"
+    },
+    {
+      "name": "🇨🇦 Канада 3",
+      "country": "CA",
+      "latency_ms": 80.7,
+      "protocol": "shadowsocks",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "79.127.200.172"
+    },
+    {
+      "name": "🇳🇱 Нидерланды 1",
+      "country": "NL",
+      "latency_ms": 232.1,
+      "protocol": "hysteria2",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "72.56.21.252"
+    },
+    {
+      "name": "🇳🇱 Нидерланды 2",
+      "country": "NL",
+      "latency_ms": 259.1,
+      "protocol": "vless",
+      "transport": "grpc",
+      "whitelist": false,
+      "exit_ip": "31.56.184.132"
+    },
+    {
+      "name": "🇳🇱 Нидерланды 3",
+      "country": "NL",
+      "latency_ms": 251.6,
+      "protocol": "shadowsocks",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "193.29.139.235"
+    },
+    {
+      "name": "🇬🇧 Великобритания 1",
+      "country": "GB",
+      "latency_ms": 246.6,
+      "protocol": "vless",
+      "transport": "grpc",
+      "whitelist": false,
+      "exit_ip": "66.90.105.138"
+    },
+    {
+      "name": "🇬🇧 Великобритания 2",
+      "country": "GB",
+      "latency_ms": 247.9,
+      "protocol": "vless",
+      "transport": "grpc",
+      "whitelist": false,
+      "exit_ip": "66.90.104.42"
+    },
+    {
+      "name": "🇬🇧 Великобритания 3",
+      "country": "GB",
+      "latency_ms": 281.4,
+      "protocol": "hysteria2",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "43.245.227.147"
+    },
+    {
+      "name": "🇫🇷 Франция 1",
+      "country": "FR",
+      "latency_ms": 246.8,
+      "protocol": "vless",
+      "transport": "grpc",
+      "whitelist": false,
+      "exit_ip": "152.228.139.33"
+    },
+    {
+      "name": "🇫🇷 Франция 2",
+      "country": "FR",
+      "latency_ms": 263.0,
+      "protocol": "hysteria2",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "62.210.124.146"
+    },
+    {
+      "name": "🇫🇷 Франция 3",
+      "country": "FR",
+      "latency_ms": 248.0,
+      "protocol": "vless",
+      "transport": "xhttp",
+      "whitelist": false,
+      "exit_ip": "2001:bc8:32d7:181::1"
+    },
+    {
+      "name": "🇵🇱 Польша 1",
+      "country": "PL",
+      "latency_ms": 256.4,
+      "protocol": "vless",
+      "transport": "grpc",
+      "whitelist": false,
+      "exit_ip": "185.104.194.125"
+    },
+    {
+      "name": "🇵🇱 Польша 2",
+      "country": "PL",
+      "latency_ms": 266.0,
+      "protocol": "hysteria2",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "45.192.12.93"
+    },
+    {
+      "name": "🇵🇱 Польша 3",
+      "country": "PL",
+      "latency_ms": 284.6,
+      "protocol": "hysteria2",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "217.60.33.10"
+    },
+    {
+      "name": "🇩🇪 Германия 1",
+      "country": "DE",
+      "latency_ms": 260.9,
+      "protocol": "hysteria2",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "64.188.98.252"
+    },
+    {
+      "name": "🇩🇪 Германия 2",
+      "country": "DE",
+      "latency_ms": 281.3,
+      "protocol": "hysteria2",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "64.188.98.254"
+    },
+    {
+      "name": "🇩🇪 Германия 3",
+      "country": "DE",
+      "latency_ms": 262.6,
+      "protocol": "vless",
+      "transport": "grpc",
+      "whitelist": false,
+      "exit_ip": "72.4.65.116"
+    },
+    {
+      "name": "🇸🇪 Швеция 1",
+      "country": "SE",
+      "latency_ms": 283.0,
+      "protocol": "vless",
+      "transport": "grpc",
+      "whitelist": false,
+      "exit_ip": "79.141.174.147"
+    },
+    {
+      "name": "🇸🇪 Швеция 2",
+      "country": "SE",
+      "latency_ms": 390.7,
+      "protocol": "shadowsocks",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "16.170.214.108"
+    },
+    {
+      "name": "🇸🇪 Швеция 3",
+      "country": "SE",
+      "latency_ms": 394.1,
+      "protocol": "shadowsocks",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "16.171.55.2"
+    },
+    {
+      "name": "🇷🇴 Румыния 1",
+      "country": "RO",
+      "latency_ms": 292.7,
+      "protocol": "hysteria2",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "185.156.44.103"
+    },
+    {
+      "name": "🇷🇴 Румыния 2",
+      "country": "RO",
+      "latency_ms": 292.1,
+      "protocol": "hysteria2",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "162.249.125.133"
+    },
+    {
+      "name": "🇷🇴 Румыния 3",
+      "country": "RO",
+      "latency_ms": 477.2,
+      "protocol": "shadowsocks",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "154.46.31.106"
+    },
+    {
+      "name": "🇮🇪 Ирландия 1",
+      "country": "IE",
+      "latency_ms": 315.9,
+      "protocol": "shadowsocks",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "4.210.64.50"
+    },
+    {
+      "name": "🇮🇪 Ирландия 2",
+      "country": "IE",
+      "latency_ms": 425.6,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "50.7.4.66"
+    },
+    {
+      "name": "🇪🇪 Эстония 1",
+      "country": "EE",
+      "latency_ms": 321.8,
+      "protocol": "vless",
+      "transport": "grpc",
+      "whitelist": false,
+      "exit_ip": "94.183.170.147"
+    },
+    {
+      "name": "🇪🇪 Эстония 2",
+      "country": "EE",
+      "latency_ms": 318.5,
+      "protocol": "hysteria2",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "31.56.187.34"
+    },
+    {
+      "name": "🇪🇪 Эстония 3",
+      "country": "EE",
+      "latency_ms": 527.3,
+      "protocol": "trojan",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "109.206.241.10"
+    },
+    {
+      "name": "🇰🇷 Южная Корея 1",
+      "country": "KR",
+      "latency_ms": 337.0,
+      "protocol": "vless",
+      "transport": "grpc",
+      "whitelist": false,
+      "exit_ip": "2406:da12:32:2500:a1b0:d0ee:72b5:bb9"
+    },
+    {
+      "name": "🇰🇷 Южная Корея 2",
+      "country": "KR",
+      "latency_ms": 474.3,
+      "protocol": "vmess",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "140.238.2.250"
+    },
+    {
+      "name": "🇰🇷 Южная Корея 3",
+      "country": "KR",
+      "latency_ms": 477.9,
+      "protocol": "vmess",
+      "transport": "http",
+      "whitelist": false,
+      "exit_ip": "217.142.138.61"
+    },
+    {
+      "name": "🇦🇹 Австрия 1",
+      "country": "AT",
+      "latency_ms": 379.6,
+      "protocol": "shadowsocks",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "51.241.209.6"
+    },
+    {
+      "name": "🇦🇹 Австрия 2",
+      "country": "AT",
+      "latency_ms": 558.0,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "152.53.1.40"
+    },
+    {
+      "name": "🇳🇴 Норвегия 1",
+      "country": "NO",
+      "latency_ms": 402.0,
+      "protocol": "shadowsocks",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "185.213.23.63"
+    },
+    {
+      "name": "🇳🇴 Норвегия 2",
+      "country": "NO",
+      "latency_ms": 559.3,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "46.29.238.88"
+    },
+    {
+      "name": "🇳🇴 Норвегия 3",
+      "country": "NO",
+      "latency_ms": 982.4,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "31.76.5.2"
+    },
+    {
+      "name": "🇨🇭 Швейцария 1",
+      "country": "CH",
+      "latency_ms": 403.5,
+      "protocol": "vless",
+      "transport": "xhttp",
+      "whitelist": false,
+      "exit_ip": "185.191.238.222"
+    },
+    {
+      "name": "🇨🇭 Швейцария 2",
+      "country": "CH",
+      "latency_ms": 489.5,
+      "protocol": "vless",
+      "transport": "xhttp",
+      "whitelist": false,
+      "exit_ip": "185.191.238.222"
+    },
+    {
+      "name": "🇪🇸 Испания 1",
+      "country": "ES",
+      "latency_ms": 404.2,
+      "protocol": "vmess",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "66.163.118.73"
+    },
+    {
+      "name": "🇪🇸 Испания 2",
+      "country": "ES",
+      "latency_ms": 507.8,
+      "protocol": "shadowsocks",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "108.181.70.65"
+    },
+    {
+      "name": "🇪🇸 Испания 3",
+      "country": "ES",
+      "latency_ms": 512.8,
+      "protocol": "shadowsocks",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "108.181.70.23"
+    },
+    {
+      "name": "🇸🇦 Саудовская Аравия",
+      "country": "SA",
+      "latency_ms": 410.6,
+      "protocol": "vless",
+      "transport": "grpc",
+      "whitelist": false,
+      "exit_ip": "81.208.170.142"
+    },
+    {
+      "name": "🇯🇵 Япония 1",
+      "country": "JP",
+      "latency_ms": 416.7,
+      "protocol": "shadowsocks",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "149.22.87.204"
+    },
+    {
+      "name": "🇯🇵 Япония 2",
+      "country": "JP",
+      "latency_ms": 419.1,
+      "protocol": "shadowsocks",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "149.22.87.241"
+    },
+    {
+      "name": "🇯🇵 Япония 3",
+      "country": "JP",
+      "latency_ms": 425.4,
+      "protocol": "shadowsocks",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "18.181.165.254"
+    },
+    {
+      "name": "🇮🇹 Италия 1",
+      "country": "IT",
+      "latency_ms": 417.0,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "204.216.216.23"
+    },
+    {
+      "name": "🇮🇹 Италия 2",
+      "country": "IT",
+      "latency_ms": 378.3,
+      "protocol": "shadowsocks",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "57.131.48.45"
+    },
+    {
+      "name": "🇮🇹 Италия 3",
+      "country": "IT",
+      "latency_ms": 413.6,
+      "protocol": "shadowsocks",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "185.162.118.6"
+    },
+    {
+      "name": "🇱🇹 Литва 1",
+      "country": "LT",
+      "latency_ms": 434.6,
+      "protocol": "shadowsocks",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "195.238.126.20"
+    },
+    {
+      "name": "🇱🇹 Литва 2",
+      "country": "LT",
+      "latency_ms": 731.6,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "80.209.231.231"
+    },
+    {
+      "name": "🇱🇹 Литва 3",
+      "country": "LT",
+      "latency_ms": 436.4,
+      "protocol": "shadowsocks",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "195.238.126.20"
+    },
+    {
+      "name": "🇧🇬 Болгария 1",
+      "country": "BG",
+      "latency_ms": 442.4,
+      "protocol": "shadowsocks",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "213.183.63.60"
+    },
+    {
+      "name": "🇧🇬 Болгария 2",
+      "country": "BG",
+      "latency_ms": 653.6,
+      "protocol": "vless",
+      "transport": "ws",
+      "whitelist": false,
+      "exit_ip": "131.123.37.199"
+    },
+    {
+      "name": "🇧🇬 Болгария 3",
+      "country": "BG",
+      "latency_ms": 643.7,
+      "protocol": "vless",
+      "transport": "ws",
+      "whitelist": false,
+      "exit_ip": "131.123.41.177"
+    },
+    {
+      "name": "🇱🇻 Латвия 1",
+      "country": "LV",
+      "latency_ms": 473.8,
+      "protocol": "shadowsocks",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "185.135.86.175"
+    },
+    {
+      "name": "🇱🇻 Латвия 2",
+      "country": "LV",
+      "latency_ms": 610.4,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "138.124.180.137"
+    },
+    {
+      "name": "🇱🇻 Латвия 3",
+      "country": "LV",
+      "latency_ms": 628.1,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "2a02:27ac::20d1"
+    },
+    {
+      "name": "🇲🇽 Мексика 1",
+      "country": "MX",
+      "latency_ms": 488.8,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "185.47.254.251"
+    },
+    {
+      "name": "🇲🇽 Мексика 2",
+      "country": "MX",
+      "latency_ms": 747.0,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "34.51.83.115"
+    },
+    {
+      "name": "🇫🇮 Финляндия 1",
+      "country": "FI",
+      "latency_ms": 511.5,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "83.219.97.26"
+    },
+    {
+      "name": "🇫🇮 Финляндия 2",
+      "country": "FI",
+      "latency_ms": 529.4,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "45.149.147.97"
+    },
+    {
+      "name": "🇫🇮 Финляндия 3",
+      "country": "FI",
+      "latency_ms": 571.8,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "95.216.27.15"
+    },
+    {
+      "name": "🇨🇱 Чили 1",
+      "country": "CL",
+      "latency_ms": 552.8,
+      "protocol": "vless",
+      "transport": "ws",
+      "whitelist": false,
+      "exit_ip": "64.176.13.207"
+    },
+    {
+      "name": "🇨🇱 Чили 2",
+      "country": "CL",
+      "latency_ms": 544.3,
+      "protocol": "vless",
+      "transport": "ws",
+      "whitelist": false,
+      "exit_ip": "64.176.23.88"
+    },
+    {
+      "name": "🇨🇱 Чили 3",
+      "country": "CL",
+      "latency_ms": 538.7,
+      "protocol": "vless",
+      "transport": "ws",
+      "whitelist": false,
+      "exit_ip": "64.176.24.245"
+    },
+    {
+      "name": "🇹🇼 Тайвань 1",
+      "country": "TW",
+      "latency_ms": 556.2,
+      "protocol": "vmess",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "165.154.195.38"
+    },
+    {
+      "name": "🇹🇼 Тайвань 2",
+      "country": "TW",
+      "latency_ms": 803.5,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "104.199.134.231"
+    },
+    {
+      "name": "🇹🇼 Тайвань 3",
+      "country": "TW",
+      "latency_ms": 809.3,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "118.167.230.191"
+    },
+    {
+      "name": "🇸🇬 Сингапур 1",
+      "country": "SG",
+      "latency_ms": 613.0,
+      "protocol": "vmess",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "149.88.23.202"
+    },
+    {
+      "name": "🇸🇬 Сингапур 2",
+      "country": "SG",
+      "latency_ms": 623.5,
+      "protocol": "vmess",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "149.88.23.207"
+    },
+    {
+      "name": "🇸🇬 Сингапур 3",
+      "country": "SG",
+      "latency_ms": 820.7,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "2603:c024:4517:e220:5e70:409b:163d:faff"
+    },
+    {
+      "name": "🇹🇷 Турция 1",
+      "country": "TR",
+      "latency_ms": 645.5,
+      "protocol": "vless",
+      "transport": "grpc",
+      "whitelist": false,
+      "exit_ip": "2a01:f900:11:25b::1"
+    },
+    {
+      "name": "🇹🇷 Турция 2",
+      "country": "TR",
+      "latency_ms": 880.4,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "151.241.226.201"
+    },
+    {
+      "name": "🇬🇷 Греция",
+      "country": "GR",
+      "latency_ms": 687.5,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "2a12:6fc3:8000::3d9"
+    },
+    {
+      "name": "🇮🇩 Индонезия 1",
+      "country": "ID",
+      "latency_ms": 705.5,
+      "protocol": "shadowsocks",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "103.160.63.199"
+    },
+    {
+      "name": "🇮🇩 Индонезия 2",
+      "country": "ID",
+      "latency_ms": 1905.5,
+      "protocol": "trojan",
+      "transport": "ws",
+      "whitelist": false,
+      "exit_ip": "103.167.35.10"
+    },
+    {
+      "name": "🇮🇩 Индонезия 3",
+      "country": "ID",
+      "latency_ms": 2996.2,
+      "protocol": "trojan",
+      "transport": "ws",
+      "whitelist": false,
+      "exit_ip": "103.167.35.10"
+    },
+    {
+      "name": "🇦🇺 Австралия 1",
+      "country": "AU",
+      "latency_ms": 709.8,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "51.161.204.244"
+    },
+    {
+      "name": "🇦🇺 Австралия 2",
+      "country": "AU",
+      "latency_ms": 850.7,
+      "protocol": "hysteria2",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "2603:c022:4002:dcee:6abf:3900:67db:f5c1"
+    },
+    {
+      "name": "🇦🇺 Австралия 3",
+      "country": "AU",
+      "latency_ms": 1862.4,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "46.250.240.80"
+    },
+    {
+      "name": "🇭🇰 Гонконг 1",
+      "country": "HK",
+      "latency_ms": 732.9,
+      "protocol": "trojan",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "119.246.1.143"
+    },
+    {
+      "name": "🇭🇰 Гонконг 2",
+      "country": "HK",
+      "latency_ms": 760.7,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "195.58.144.56"
+    },
+    {
+      "name": "🇭🇰 Гонконг 3",
+      "country": "HK",
+      "latency_ms": 800.5,
+      "protocol": "vmess",
+      "transport": "ws",
+      "whitelist": false,
+      "exit_ip": "8.210.24.181"
+    },
+    {
+      "name": "🇿🇦 ЮАР 1",
+      "country": "ZA",
+      "latency_ms": 736.3,
+      "protocol": "shadowsocks",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "139.84.247.164"
+    },
+    {
+      "name": "🇿🇦 ЮАР 2",
+      "country": "ZA",
+      "latency_ms": 731.1,
+      "protocol": "shadowsocks",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "102.37.156.224"
+    },
+    {
+      "name": "🇿🇦 ЮАР 3",
+      "country": "ZA",
+      "latency_ms": 733.9,
+      "protocol": "shadowsocks",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "4.168.235.104"
+    },
+    {
+      "name": "🇲🇾 Малайзия 1",
+      "country": "MY",
+      "latency_ms": 738.7,
+      "protocol": "vmess",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "47.250.135.244"
+    },
+    {
+      "name": "🇲🇾 Малайзия 2",
+      "country": "MY",
+      "latency_ms": 1262.4,
+      "protocol": "trojan",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "47.250.84.25"
+    },
+    {
+      "name": "🇮🇳 Индия 1",
+      "country": "IN",
+      "latency_ms": 738.9,
+      "protocol": "vless",
+      "transport": "grpc",
+      "whitelist": false,
+      "exit_ip": "5.253.30.99"
+    },
+    {
+      "name": "🇮🇳 Индия 2",
+      "country": "IN",
+      "latency_ms": 701.6,
+      "protocol": "shadowsocks",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "139.84.166.47"
+    },
+    {
+      "name": "🇮🇳 Индия 3",
+      "country": "IN",
+      "latency_ms": 830.4,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "194.61.31.126"
+    },
+    {
+      "name": "🇮🇷 Иран",
+      "country": "IR",
+      "latency_ms": 791.9,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "151.241.138.44"
+    },
+    {
+      "name": "🇰🇿 Казахстан 1",
+      "country": "KZ",
+      "latency_ms": 916.6,
+      "protocol": "vmess",
+      "transport": "ws",
+      "whitelist": false,
+      "exit_ip": "38.107.234.57"
+    },
+    {
+      "name": "🇰🇿 Казахстан 2",
+      "country": "KZ",
+      "latency_ms": 957.4,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "87.199.130.119"
+    },
+    {
+      "name": "🇰🇿 Казахстан 3",
+      "country": "KZ",
+      "latency_ms": 1159.5,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "178.236.16.98"
+    },
+    {
+      "name": "🇦🇪 ОАЭ",
+      "country": "AE",
+      "latency_ms": 979.7,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "146.70.102.82"
+    },
+    {
+      "name": "🇹🇭 Таиланд 1",
+      "country": "TH",
+      "latency_ms": 981.0,
+      "protocol": "vless",
+      "transport": "ws",
+      "whitelist": false,
+      "exit_ip": "103.86.49.57"
+    },
+    {
+      "name": "🇹🇭 Таиланд 2",
+      "country": "TH",
+      "latency_ms": 1169.7,
+      "protocol": "vless",
+      "transport": "ws",
+      "whitelist": false,
+      "exit_ip": "103.86.49.57"
+    },
+    {
+      "name": "🇨🇿 Чехия",
+      "country": "CZ",
+      "latency_ms": 1218.3,
+      "protocol": "shadowsocks",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "141.227.134.63"
+    },
+    {
+      "name": "🇷🇺 Россия",
+      "country": "RU",
+      "latency_ms": 1224.2,
+      "protocol": "vless",
+      "transport": "ws",
+      "whitelist": false,
+      "exit_ip": "46.8.200.91"
+    },
+    {
+      "name": "🇦🇲 Армения",
+      "country": "AM",
+      "latency_ms": 1655.6,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": false,
+      "exit_ip": "2a13:7e40:2:401d::1"
+    },
+    {
+      "name": "🇩🇪 Германия 🏳️ 1",
+      "country": "DE",
+      "latency_ms": 546.7,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": true,
+      "exit_ip": "2a01:ecc0:bc0:13::2"
+    },
+    {
+      "name": "🇩🇪 Германия 🏳️ 2",
+      "country": "DE",
+      "latency_ms": 594.6,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": true,
+      "exit_ip": "91.196.32.216"
+    },
+    {
+      "name": "🇩🇪 Германия 🏳️ 3",
+      "country": "DE",
+      "latency_ms": 597.7,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": true,
+      "exit_ip": "132.243.242.97"
+    },
+    {
+      "name": "🇳🇱 Нидерланды 🏳️ 1",
+      "country": "NL",
+      "latency_ms": 549.4,
+      "protocol": "trojan",
+      "transport": "tcp",
+      "whitelist": true,
+      "exit_ip": "87.58.220.77"
+    },
+    {
+      "name": "🇳🇱 Нидерланды 🏳️ 2",
+      "country": "NL",
+      "latency_ms": 577.4,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": true,
+      "exit_ip": "94.183.224.45"
+    },
+    {
+      "name": "🇬🇧 Великобритания 🏳️ 1",
+      "country": "GB",
+      "latency_ms": 552.8,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": true,
+      "exit_ip": "194.150.166.108"
+    },
+    {
+      "name": "🇬🇧 Великобритания 🏳️ 2",
+      "country": "GB",
+      "latency_ms": 757.4,
+      "protocol": "vless",
+      "transport": "grpc",
+      "whitelist": true,
+      "exit_ip": "31.76.60.142"
+    },
+    {
+      "name": "🇬🇧 Великобритания 🏳️ 3",
+      "country": "GB",
+      "latency_ms": 1494.9,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": true,
+      "exit_ip": "194.150.166.230"
+    },
+    {
+      "name": "🇫🇮 Финляндия 🏳️ 1",
+      "country": "FI",
+      "latency_ms": 621.3,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": true,
+      "exit_ip": "31.76.31.20"
+    },
+    {
+      "name": "🇫🇮 Финляндия 🏳️ 2",
+      "country": "FI",
+      "latency_ms": 1520.1,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": true,
+      "exit_ip": "2a12:bec4:1483:17a::2"
+    },
+    {
+      "name": "🇪🇪 Эстония 🏳️",
+      "country": "EE",
+      "latency_ms": 818.7,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": true,
+      "exit_ip": "150.241.101.17"
+    },
+    {
+      "name": "🇷🇺 Россия 🏳️",
+      "country": "RU",
+      "latency_ms": 1137.9,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": true,
+      "exit_ip": "45.12.75.242"
+    },
+    {
+      "name": "🇷🇴 Румыния 🏳️",
+      "country": "RO",
+      "latency_ms": 1147.0,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": true,
+      "exit_ip": "87.58.205.39"
+    },
+    {
+      "name": "🇸🇪 Швеция 🏳️",
+      "country": "SE",
+      "latency_ms": 1652.7,
+      "protocol": "vless",
+      "transport": "tcp",
+      "whitelist": true,
+      "exit_ip": "150.241.73.101"
+    }
+  ]
+}
